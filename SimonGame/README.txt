@@ -1,0 +1,3 @@
+A Pen created at CodePen.io. You can find this one at http://codepen.io/ColtonBoston/pen/KzjyxM.
+
+ A Simon Game where the player is presented with a random series of 20 button presses. The count starts at 1 and increases every time the user inputs the correct order. If the player is wrong, the computer plays up to the current count again. In strict mode, a wrong input by the user will reset the count to 1.

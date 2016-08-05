@@ -1,0 +1,258 @@
+$gameBorder: #151515;
+
+body {
+  margin: 0 0 0 0;
+  text-align: center;
+  background: url('http://paper-backgrounds.com/textureimages/2012/08/light-brown-wood-furniture-texture-hd.jpg');
+  font-family: Oswald;
+  color: $gameBorder;
+}
+
+.circleBase {
+  border-radius: 100%;
+}
+
+span.col-xs-4 {
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.counter {
+  border: 2px solid $gameBorder;
+  border-radius: 12%;
+  background: maroon;
+  color: red;
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 700;
+  padding: 3px 0 2px 0;
+}
+
+.no-highlight,
+.no-hightlight:hover {
+  cursor: default;
+  -webkit-user-select: none;
+  /* Chrome/Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+ */
+}
+
+sub {
+  font-size: 10px;
+  top: 0;
+}
+
+.main {
+  box-shadow: 5px 5px 5px grey;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  background: $gameBorder;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.innerCircle {
+  background: #FFF;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  padding-top: 18px;
+  position: absolute;
+  border: 10px solid $gameBorder;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+h1 {
+  margin: 0 auto 10px auto;
+}
+
+.largeBtn {
+  width: 25px;
+  height: 25px;
+  margin: 0 auto;
+  display: block;
+  border: 3px solid $gameBorder;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.largeBtn.yellow:active {
+  background: #ecec00;
+}
+
+.largeBtn.red:active {
+  background: #ee0000;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.red {
+  background: red;
+}
+
+.maroon {
+  background: maroon;
+}
+
+.strict-on-off {
+  border-radius: 100%;
+  margin-bottom: 2px;
+  width: 8px;
+  height: 8px;
+  border: 2px solid $gameBorder;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+}
+
+#onOff {
+  background: $gameBorder;
+  margin-top: 10px;
+  width: 50px;
+  font-size: 14px;
+  padding: 2px;
+  color: silver;
+}
+
+#onOff:active {
+  background: #111111;
+}
+
+.green-btn {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  width: 175px;
+  height: 175px;
+  border-radius: 175px 0 0 0;
+  margin: 20px 0 0 20px;
+  position: relative;
+  float: left;
+  background: green;
+}
+
+.red-btn {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  width: 175px;
+  height: 175px;
+  border-radius: 0 175px 0 0;
+  margin: 20px 20px 0 0;
+  float: right;
+  position: relative;
+  background: red;
+}
+
+.blue-btn {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  width: 175px;
+  height: 175px;
+  border-radius: 0 0 175px 0;
+  margin: 10px 20px 20px 0;
+  float: right;
+  position: relative;
+  background: #0066FF;
+}
+
+.yellow-btn {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  width: 175px;
+  height: 175px;
+  border-radius: 0 0 0 175px;
+  margin: 10px 0 20px 20px;
+  float: left;
+  position: relative;
+  background: #DDDD00;
+}
+
+.transition-green {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  background: lightgreen;
+}
+
+.transition-red {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  background: lightcoral;
+}
+
+.transition-blue {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  background: #00AAFF;
+}
+
+.transition-yellow {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  background: #ffff99;
+}
+
+.row {
+  margin: 0;
+}
+
+// Old win/lose notifications
+// .wrong-answer {
+//   color: red;
+//   font-weight: bold;
+//   font-size: 80px;
+//   position: absolute;
+//   top: 50%;
+//   left: 105%;
+//   transform: translate(0, -50%);
+//   display: none;
+// }
+// .correct-answer {
+//   color: green;
+//   font-weight: bold;
+//   font-size: 80px;
+//   position: absolute;
+//   top: 50%;
+//   left: 105%;
+//   transform: translate(0, -50%);
+//   display: none;
+// }

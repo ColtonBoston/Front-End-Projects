@@ -1,0 +1,80 @@
+body {
+  background: #505050;
+  font-size: 16px;
+}
+
+
+ul {
+  margin: 0 auto;
+  padding: 0 0 0 0;
+  width: 90%;
+}
+
+li {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  list-style-type: none;
+  border: 1px solid #000;
+  background: #FFF;
+  padding: 0 5px 0 5px;
+}
+
+.title {
+  font-size: 300%;
+  background: #7d52cc;
+  color: #FFF;
+}
+
+a {
+  color: #000;
+}
+
+img {
+  border-width: 4px;
+  width: 12%;
+  border-style: solid;
+  border-radius: 50%;
+  background: #000;
+}
+
+.gameText {
+  color: #7d52cc;
+}
+
+.description {
+  vertical-align: middle;
+}
+
+.offline {
+  background: #AAA;
+}
+
+@media only screen and (max-width: 700px){
+  body {
+    font-size: 14px;
+  }
+  
+  ul{
+    width: 100%;
+  }
+}
+
+/* iphone 4s media query */
+@media only screen and (min-device-width: 320px) 
+  and (max-device-width : 480px){
+  
+  body {
+    font-size: 12px;
+    width: 320px;
+  }
+  
+  img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  ul {
+    width: 100%;
+  }
+}

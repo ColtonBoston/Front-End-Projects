@@ -1,0 +1,65 @@
+body {
+  background: #C0C0C0;
+  text-align: center;
+}
+
+.calc {
+  border: solid 1px #000000;
+  width: 282px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: #000;
+  color: #FFF;
+  overflow: hidden;
+  padding: 0;
+}
+
+.btn, .btnFunc {
+  color: #FFF;
+  background: #0000cc;
+  border: solid 1px #000000;
+  border-radius: 0px;
+  width: 70px;
+  font-size: 20px;
+  margin: none;
+  float: left;
+  position: relative;
+}
+
+.btnRed {
+  background: #A00000;
+}
+
+.btnZero {
+  width: 140px;
+}
+
+.btn:hover , .btn:focus{
+  color: #FFF;
+}
+
+.btn:active {
+  background: #0000bb;
+}
+
+.btnRed:active {
+  background: #900000;
+}
+
+.result {
+  border: solid 1px #000000;
+  text-align: right;
+  top: 0;
+  padding: 0 5px 0 5px;
+  background: #FFFFFF;
+  margin: 0 0 0 0;
+  color: #000;
+  height: 32px;
+  width: 280px;
+  overflow: hidden;
+}

@@ -1,0 +1,17 @@
+.quote {
+  margin: auto;
+  outline: #000000 solid;
+  outline-offset: 10px;
+  width: 60%;
+  height: 100%;
+  position: relative;
+  top: 30px;
+  text-align: center;
+  vertical-align: center;
+}
+
+.tweet {
+  margin: auto;
+  position: relative;
+  top: 50px;
+}

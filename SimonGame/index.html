@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Simon Game</title>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:700,400' rel='stylesheet' type='text/css'>
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class='circleBase main'>
+
+  <audio id='audio-green' preload='auto' src='https://s3.amazonaws.com/freecodecamp/simonSound1.mp3' preload='auto'></audio>
+  <audio id='audio-red' preload='auto' src='https://s3.amazonaws.com/freecodecamp/simonSound2.mp3' preload='auto'></audio>
+  <audio id='audio-blue' preload='auto' src='https://s3.amazonaws.com/freecodecamp/simonSound3.mp3' preload='auto'></audio>
+  <audio id='audio-yellow' preload='auto' src='https://s3.amazonaws.com/freecodecamp/simonSound4.mp3' preload='auto'></audio>
+  <div class="green-btn"></div>
+  <div class="red-btn"></div>
+  <div class="yellow-btn"></div>
+  <div class="blue-btn"></div>
+
+  <div class='circleBase innerCircle'>
+    <h1 class='no-highlight'><b>SIMON<sub>®</sub></b></h1>
+    <div class='container-fluid'>
+
+      <span class="row">
+      <span class='col-xs-8 col-centered'></span>
+      <span class='col-xs-4 col-centered'>
+        <div class='strict-on-off maroon'></div>
+        </span>
+      </span>
+
+      <span class="row">
+        <span class='col-xs-4 col-centered counter'>
+      <div class='no-highlight' id='counter'>&nbsp;</div>
+      </span>
+      <span class='col-xs-4 col-centered'>
+        <a id='btn-start' class='largeBtn red'></a>
+      </span>
+      <span class='col-xs-4 col-centered'>
+        <a id='btn-strict' class='circleBase largeBtn yellow'></a>
+        </span>
+      </span>
+
+      <span class="row">
+      <span class='col-xs-4 no-highlight'>Count</span>
+      <span class='col-xs-4 no-highlight'>Start</span>
+      <span class='col-xs-4 no-highlight'>Strict</span>
+      </span>
+
+      <span class="row">
+        <span class='col-xs-12 no-highlight'>
+          <div id='onOff' class='btn'><b>OFF</b></div>
+        </span>
+      </span>
+    </div>
+  </div>
+  <!-- Old win/lose notifications
+<div class='wrong-answer'>Wrong!</div>
+<div class='correct-answer'>Correct!</div>
+-->
+</div>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>

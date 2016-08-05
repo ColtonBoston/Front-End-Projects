@@ -1,0 +1,95 @@
+body {
+  background: #000;
+  height: 100%;
+  color: #FFF;
+  font-size: 16px;
+}
+
+.main {
+  height: 100%;
+}
+
+.vcenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 350%;
+}
+
+ul {
+  margin: 0 auto;
+  padding-left: 0px;
+  width: 80%;
+}
+
+.btn {
+  background: #0030A0;
+  color: #FFF;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.btn:hover {
+  background: #0050DD;
+  color: #FFF;
+}
+
+.btn:active,
+.btn:focus {
+  color: #FFF;
+  background: #0050DD;
+}
+
+div {
+  width: 100%;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+  color: #FFF;
+  text-decoration: none;
+}
+
+#search {
+  width: 50%;
+  color: #000;
+}
+
+.wikiList {
+  border: 1px solid #FFF;
+  margin: 0 0 5px 0;
+  background: #0050FF;
+  list-style-type: none;
+  text-align: left;
+  padding: 0 0 0 5px;
+}
+
+.wikiList:hover,
+.wikiList:active,
+.wikiList:focus,
+.wikiList:visited {
+  background: #0080FF;
+  border-color: #0000DD;
+}
+
+
+/* Media query for iphone 4s */
+
+@media (max-device-width: 320px) {
+  html {
+    font-size: 130%;
+  }
+  h1 {
+    font-size: 210%;
+  }
+}
+
+
+/* END OF @MEDIA */
